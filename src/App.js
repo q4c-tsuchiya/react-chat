@@ -3,6 +3,7 @@ import './App.css';
 import { firebaseDb } from './firebase/index'
 import Message from './components/Message.js'
 import ChatBox from './components/ChatBox.js'
+import Button from '@material-ui/core/Button'
 
 const messagesRef = firebaseDb.ref('messages')
 

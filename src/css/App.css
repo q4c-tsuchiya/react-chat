@@ -8,18 +8,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #e2722d;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fef7bd;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.MessageList {
+  background-color: #fef7bd;
+  margin: 100px;
+}
+
+span.others-message {
+  background-color: #fef7bd;
+  color: #e2722d;
 }
 
 @keyframes App-logo-spin {

@@ -2,6 +2,7 @@ import React from "react";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
+import Button from '@material-ui/core/Button'
 
 export default class ChatBox extends React.Component {
   render() {
@@ -14,6 +15,8 @@ export default class ChatBox extends React.Component {
             <TextField name='profile_image' onChange={this.props.onTextChange} className="" placeholder="Profile Image URL" />
           </div>
           <TextField rows="4" multiLine="true" name='text' className="" onChange={this.props.onTextChange} />
+
+        <Button variant="contained" color="primary"> Hello World</Button>
           <RaisedButton primary="true" label="Send" className="" onClick={this.props.onButtonClick} />
         </div>
       </MuiThemeProvider>
